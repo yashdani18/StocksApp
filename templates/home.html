@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block login %}
+    <div class="login-section">
+        <form method="POST" action="/home">
+            {{ form.hidden_tag() }}
+            <div class="form-group text-center">
+                <h2>{{ form.company.label(class="form-control-label btn-margin text-center") }}</h2>
+                {{ form.company(class="form-control") }}
+            </div>
+            <div class="form-group">
+                {{ form.search(class="btn btn-custom btn-margin text-center") }}
+            </div>
+        </form>
+
+        <div class="block-companies">
+            <h6 class="field-pop-searches padding-right-10">Popular Searches: </h6>
+            <ul class="list-companies">
+                <li class="list-company-items"><a href="/TCS">TCS</a></li>
+                <li class="list-company-items"><a href="/BRITANNIA">BRITANNIA</a></li>
+                <li class="list-company-items"><a href="/RELIANCE">RELIANCE</a></li>
+                <li class="list-company-items"><a href="/ABBOTINDIA">ABBOTINDIA</a></li>
+                <li class="list-company-items"><a href="/NESTLEIND">NESTLEIND</a></li>
+            </ul>
+        </div>
+
+        <div class="row">
+            {% for option in options %}
+                <div class="col-12 col-sm-12 col-md-6 padding-10">
+                    <div class="card">
+                        <div class="card-body padding-0">
+                            <div class="card-title bg-color padding-10">
+                                <h5 class="margin-0">
+                                    <a class="text-decoration-none text-white" href="/{{option['endpoint']}}">{{ option['option'] }}</a>
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <h6>{{ option['desc'] }}</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock login %}

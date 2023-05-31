@@ -1,0 +1,17 @@
+URL_NEWS_TATA_POWER = 'https://www.tatapower.com/media/media-releases.aspx?utm_medium=301&utm_source=direct' \
+                      '&utm_campaign=/media/media-releases.aspx'
+URL_NEWS_TATA_MOTORS = 'https://www.tatamotors.com/media/press-releases/'
+URL_NEWS_TATA_STEEL = 'https://www.tatasteel.com/media/newsroom/press-releases/'
+URL_NEWS_TATA_ELXSI = 'https://tataelxsi.com/whats-new/press-releases.html'
+URL_NEWS_TATA_CONSUMER = 'https://www.tataconsumer.com/media/news'
+URL_NEWS_MASTEK = 'https://www.mastek.com/press-releases/'
+URL_NEWS_HAPPIEST_MINDS = 'https://www.happiestminds.com/news-and-events/press-releases/'
+URL_NEWS_HCL_TECH = 'https://www.hcltech.com/press-release'
+URL_NEWS_TATA_CONSULTANCY_SERVICES = 'https://www.tcs.com/who-we-are/newsroom'
+URL_NEWS_INFOSYS = 'https://www.infosys.com/newsroom/press-releases.html'
+URL_NEWS_GODREJ_CONSUMER_PRODUCTS = 'https://godrejcp.com/media/press-releases'
+URL_NEWS_TVS_MOTORS = 'https://www.tvsmotor.com/en/media/press-release'
+
+DICTIONARY_HEADLINE = 'headline'
+DICTIONARY_DATE_STRING = 'date_string'
+DICTIONARY_DATE_MS = 'date_ms'

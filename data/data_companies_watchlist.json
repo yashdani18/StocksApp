@@ -1,0 +1,67 @@
+{
+  "companies": [
+    {
+      "symbol": "INFY",
+      "exchange": "NSE",
+      "q_result_date": [
+        "2021-08-10"
+      ]
+    },
+    {
+      "symbol": "TECHM",
+      "exchange": "NSE",
+      "q_result_date": [
+        "2021-07-26"
+      ]
+    },
+    {
+      "symbol": "DMART",
+      "exchange": "NSE",
+      "q_result_date": [
+        "2021-07-26"
+      ]
+    },
+    {
+      "symbol": "GUJALKALI",
+      "exchange": "NSE",
+      "q_result_date": [
+        "2021-07-26"
+      ]
+    },
+    {
+      "symbol": "BRITANNIA",
+      "exchange": "NSE",
+      "q_result_date": [
+        "2021-07-26"
+      ]
+    },
+    {
+      "symbol": "HCLTECH",
+      "exchange": "NSE",
+      "q_result_date": [
+        "2021-07-26"
+      ]
+    },
+    {
+      "symbol": "WIPRO",
+      "exchange": "NSE",
+      "q_result_date": [
+        "2021-07-26"
+      ]
+    },
+    {
+      "symbol": "KRBL",
+      "exchange": "NSE",
+      "q_result_date": [
+        "2021-07-26"
+      ]
+    },
+    {
+      "symbol": "RELIANCE",
+      "exchange": "NSE",
+      "q_result_date": [
+        "2021-07-26"
+      ]
+    }
+  ]
+}

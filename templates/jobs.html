@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block jobs %}
+
+    {% if len_jobs == 0 %}
+        <h2 class="no-new-jobs text-center">No new listings available</h2>
+    {% else %}
+        <h2 class="new-jobs-heading text-center">New listings</h2>
+        {% for job in new_jobs %}
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-4 border-black">
+                    {{ job['name'] }}
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 border-black">
+                    {{ job['location'] }}
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 border-black">
+                    {{ job['notes'] }}
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    <h2 class="all-jobs">All available listings</h2>
+    {% for job in all_jobs %}
+        <div class="row">
+            <div class="col-4 col-sm-4 col-md-4 border-black">
+                {{ job['name'] }}
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 border-black">
+                {{ job['location'] }}
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 border-black">
+                {{ job['notes'] }}
+            </div>
+        </div>
+    {% endfor %}
+
+{% endblock jobs %}
